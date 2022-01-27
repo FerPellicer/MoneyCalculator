@@ -6,7 +6,7 @@ import java.io.*;
 import java.net.URL;
 import java.nio.charset.Charset;
 
-public class MyJsonReader {
+public class JsonLoad {
 
     private final static String URL_PATTERN = "https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/%s/%s.json";
 

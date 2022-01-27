@@ -4,7 +4,7 @@ package persistence;
 import java.util.ArrayList;
 
 
-public interface ReadCurrencies {
+public interface CurrenciesLoad {
     
     public ArrayList readCurrencies();
     

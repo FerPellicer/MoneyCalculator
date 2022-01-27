@@ -40,7 +40,7 @@ public class ExchangeRateLoader {
 
     private float rate(String from, String to) {
     
-        return MyJsonReader.readJsonFromUrl(from, to);
+        return JsonLoad.readJsonFromUrl(from, to);
         
 
     }
